@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.print-area {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.print-area .header {
+    width: 150%;
+    height: 150px;
+    background-color: rgb(145, 49, 49);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header img {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    opacity: ;
+}
+
+.header-text {
+    color: white;
+    width: 60%;
+    margin-left:30%;
+}
+.header-text h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+.header-text p{
+    font-size: 20px;
+    color: aliceblue;
+}
+.content{
+    display: flex;
+    flex-wrap: ;
+   
+}
+.left-area{
+    width:70%;
+    background-color: rgb(232, 243, 252);
+
+}
+.left-area.content-profile{
+    margin-top: 50px;
+    text-align:center ;
+    padding: 0px 30px;
+}
+.content-profile h2{
+font-size: 28px;
+font-weight: normal;
+margin: 10px 30px 10px 30px;
+}
+.content-profile{
+    line-height: 30px;
+}
+.left-area.content-workexperience{
+    margin-top: 50px;
+    text-align:center ;
+    padding: 0px 30px;
+}
+.content-workexperience h3{
+font-size: 28px;
+font-weight: normal;
+margin: 10px 30px 10px 30px;
+}
+.content-workexperience{
+    line-height: 30px;
+}
+.right-area{
+    width: 30%;
+    padding: 50px;
+
+}
+.right-area.content-education{
+    margin-top: 50px;
+    text-align:center ;
+    padding: 0px 30px;
+}
+.content-education h3{
+font-size: 28px;
+font-weight: normal;
+margin: 10px 30px 10px 30px;
+}
+.content-education{
+    line-height: 30px;
+}
+.right-area.content-skill{
+    margin-top: 50px;
+    text-align:center ;
+    padding: 0px 30px;
+}
+.content-skill h3{
+font-size: 28px;
+font-weight: normal;
+margin: 10px 30px 10px 30px;
+}
+.content-skill{
+    line-height: 30px;
+}
